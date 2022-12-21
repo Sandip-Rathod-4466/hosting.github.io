@@ -1,0 +1,369 @@
+@import url(../css/fonts.css);
+
+    /* font-family: Poppins; */
+    /* font-family: Roboto; */
+    /* font-family: oswald; */
+    
+*{
+    margin: 0;
+    padding: 0;
+    font-family: oswald;
+
+}
+header{
+    height: 100vh;
+    background: url(../images/banner-bg.jpg) no-repeat center center/cover;
+}
+.navbar-brand{
+    padding: 20px;
+    font-size: 1.5rem;
+    color: white;
+    /* font-family: Poppins; */
+
+}
+#nav{
+    border-bottom:1px solid white ;
+}
+.nav-item{
+    margin: 0 10px !important;
+    font-size: 18px;
+    /* font-family: poppins; */
+}
+.nav-item a{
+    color: white !important;
+    transition: all 0.5s ease-in;
+
+}
+.nav-item a:hover{
+    color: aqua !important;
+}
+.nav-item .active{
+    color: aqua !important;
+}
+#exampleDataList{
+    outline: none;
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+.form-check-label{
+    color: white !important;
+}
+.form-check{
+    margin: 20px 20px;
+}
+#logotext{
+    background-color: rgb(244, 239, 239);
+    padding-bottom: 70px;
+}
+
+#logo_row{
+    justify-content: center;
+    align-items: center;
+}
+
+#services{
+    padding: 70px 0;
+}
+.info_sercise{
+    padding: 70px 0;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background:#f7f7f7;
+   text-align: center;
+   padding: 70px 5px;
+   margin: 30px 0;
+}
+.services h3{
+    margin: 19px 0;
+}
+.info_sercise h5{
+    color: rgb(96, 226, 226);
+}
+.info_sercise p{
+    color: gray;
+}
+.services .icon{
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
+.services .icon i{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 60px;
+}
+
+#host{
+    padding: 70px 0;
+}
+.host_info{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+
+.card{
+    text-align: center;
+    margin: 30px 0;
+}
+.card h5{
+    margin: 20px 0;
+    color: rgb(133 123 123);
+}
+.card h4{
+    background-color: #00bcd4;
+    color: white;
+    padding: 50px 10px;
+    margin-bottom: 30px;
+}
+.card p{
+    color: rgb(133 123 123);
+}
+.card ul{
+    text-align: justify;
+}
+
+.card .list-group-item i{
+    color: purple;
+    margin-right: 9px;
+}
+.overlay{
+    background:url(../images/pricing-bg.jpg) no-repeat center center/cover;
+    padding-top: 50px;
+}
+.card2{
+    background: linear-gradient(145deg, rgba(114,2,187,1) 0%, rgba(50,100,245,1) 100%);
+    border: none;
+}
+
+
+.cloud_info{
+    text-align: center;
+    padding: 70px 0;
+}
+.cloud_info h5{
+    color: #00bcd4;
+}
+#cloud .card-body{
+    text-align: left;
+}
+#cloud .card-text{
+    margin: 10px 0;
+}
+#cloud .card-title{
+    color: black;
+}
+#cloud img{
+    margin-top: 10%;
+}
+
+
+
+
+/* FOOTER SECTION */
+
+.footer_info{
+    text-align: center;
+    padding: 70px 0;
+}
+.footer_info h5{
+    color: #00bcd4 !important;
+}
+
+footer div.icon i{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    background: rgb(114,2,187);
+    background: linear-gradient(145deg, rgba(114,2,187,1) 0%, rgba(50,100,245,1) 100%);
+    border-radius: 50%;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+footer div.icon{
+    padding: 70px 0;
+}
+footer #wedgit{
+    background: linear-gradient(145deg, rgba(114,2,187,1) 0%, rgba(50,100,245,1) 100%);
+    padding: 70px 0;
+    color: #fff;
+}
+#footer{
+    margin-top: 70px;
+    background: url(../images/footer-bg.jpg) no-repeat center center/cover;
+    padding: 70px 0;
+}
+.footer_info2{
+    color: white;
+    padding: 50px 10px;
+    text-align: left;
+}
+.footer_info2 ul{
+    margin: 0;
+    padding: 0;
+
+}
+.footer_info2 li{
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.footer_info2 li a{
+    color: white;
+    text-decoration: none;
+}
+footer hr{
+    height: 4px;
+    background-color: #fff;
+}
+
+
+/* About Section */
+
+#banner{
+    background: url(../images/heading-bg.jpg) no-repeat center center/cover;
+    padding-bottom: 10%;
+}
+
+#banner_info h1{
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+
+
+#main{
+    padding: 140px 0;
+    background-color: #f7f7f7;
+}
+
+.aboutus h4,.aqua1{
+    color: #00bcd4;
+}
+.aboutus h1{
+    margin: 10px 0;
+}
+
+.aboutus p{
+    color: rgb(120 120 120);
+}
+.history{
+    margin-top: 50px;
+}
+.history span{
+    font-size: 20px;
+}
+.history p{
+    color: rgb(120 120 120);
+
+}
+.history .spans{
+    margin-bottom: 50px;
+}
+
+#ourteam{
+    padding: 140px 0;
+}
+
+.ourTeam{
+    text-align: center;
+}
+.ourTeam h4{
+    color: #00bcd4;
+}
+.ourTeam h1{
+    margin: 10px 0;
+}
+.ourTeam p{
+    color: rgb(120 120 120);
+}
+.testimonials{
+    background: #f7f7f7;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 30px 0;
+}
+.testimonials h4{
+    margin: 10px;
+}
+.testimonials h5{
+    color: #00bcd4;
+}
+
+
+
+#icons{
+    padding: 140px 0;
+}
+.infoI{
+    padding: 70px 0;
+}
+.infoI h4{
+ color: #00bcd4;
+}
+.i1{
+    color: #fff;
+    background-color: #00bcd4;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 32px;
+    position: static !important;
+}
+
+
+
+
+/* contact us section */
+
+
+#contact1{
+    padding: 140px 0;
+}
+#contact1 fieldset{
+    text-align: center;
+}
+#contact input, textarea{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 5px 15px;
+    width: 80%;
+    margin: 5px 0;
+    border: 1px solid black;
+}
+
+.main-button{
+    background-color: #00bcd4;
+    color: #fff;
+    margin-top: 20px;
+}
+.infoContact h4{
+    color: #00bcd4;
+}
+.Ions{
+    margin-top: 50px;
+}
+.ios1{
+    margin: 20px;
+    font-size: 20px;
+}
+.ios1 i{
+    color: #00bcd4;
+    margin-right: 5px;
+}
